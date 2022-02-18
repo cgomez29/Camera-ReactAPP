@@ -1,0 +1,29 @@
+.camera-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px;
+    position: relative;
+}
+
+.camera-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    font-size: 30px;
+}
+
+.result {
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+video {
+    height: auto;
+    max-width: 1000%;
+    width: 100%;
+}
